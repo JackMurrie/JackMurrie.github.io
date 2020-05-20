@@ -12,7 +12,7 @@ locale                   : "en-US"
 title                    : "Jack Murrie | Machine Learning & Data Science"
 title_separator          : "-"
 name                     : "Jack Murrie"
-description              : "3rd Year Computer Science / Statistics @ UNSW"
+description              : "3rd Year Computer Science / Statistics Student @ UNSW"
 url                      : "https://jackmurrie.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "JackMurrie/JackMurrie.github.io"
@@ -84,11 +84,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jack Murrie"
   avatar           : "/images/bio-pic-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science Portfolio"
-  location         : "Your Location"
-  email            :
+  bio              : "3rd Year Computer Science / Statistics Student @ UNSW"
+  location         : "Sydney, Australia"
+  email            : "jackcmurrie4@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -97,13 +97,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Your Github"
+  github           : "JackMurrie"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "dataoptimal" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "jack-m-10422a1aa" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
