@@ -1,10 +1,10 @@
 ---
-title: "Data Wrangling Project"
-date: 2018-01-28
-tags: [data wrangling, data science, messy data]
+title: "Simulating Brownian Motion"
+date: 2020-05-21
+tags: [statistics, modelling]
 header:
   image: "/images/perceptron/percept.jpg"
-excerpt: "Data Wrangling, Data Science, Statistics"
+excerpt: "Simulating Brownian Motion and using it to model stock prices"
 mathjax: "true"
 ---
 
