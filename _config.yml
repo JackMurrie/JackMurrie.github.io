@@ -9,10 +9,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jack Murrie Portfolio"
+title                    : "Jack Murrie | Machine Learning & Data Science"
 title_separator          : "-"
 name                     : "Jack Murrie"
-description              : "Data Science Portfolio"
+description              : "3rd Year Computer Science / Statistics @ UNSW"
 url                      : "https://jackmurrie.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "JackMurrie/JackMurrie.github.io"
