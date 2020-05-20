@@ -5,6 +5,6 @@ header:
   image: "/images/zakim.jpg"
 ---
 
-I'm a senior data scientist who excels at data wrangling, machine learning, exploratory analysis, and data visualizations.
+About me filla.
 
-Etc, etc, etc. [Image]("/images/zakim.jpg")
+Etc, etc, etc. [Resume]("/images/zakim.jpg")
