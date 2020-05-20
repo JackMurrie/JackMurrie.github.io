@@ -58,6 +58,6 @@ plt.show()
 ```
 
 
-![png](/BM_outputs/output_3_0.png)
+![png]("/BM_outputs/output_3_0.png")
 
 
