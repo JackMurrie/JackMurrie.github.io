@@ -11,8 +11,8 @@ mathjax: "true"
 
 Brownian Motion is the seemingly random movement of particles suspended in a fluid (i.e. dust motes in water or air) and by extension the mathematical model used to describe this movement. It is one of the simplest and most fundamental continuous-time
 stochastic processes, finding applications in numerous situations.
-A stochastic process <img src="https://latex.codecogs.com/gif.latex?X(t),&space;t&space;\geq&space;0" title="X(t), t \geq 0" /> is Brownian if: \
-<img src="https://latex.codecogs.com/gif.latex?X(0)&space;=&space;0" title="X(0) = 0" /> (arbitrary choice)\
+A stochastic process <img src="https://latex.codecogs.com/gif.latex?X(t),&space;t&space;\geq&space;0" title="X(t), t \geq 0" /> is Brownian if: <br/>
+<img src="https://latex.codecogs.com/gif.latex?X(0)&space;=&space;0" title="X(0) = 0" /> (arbitrary choice)<br/>
 <img src="https://latex.codecogs.com/gif.latex?X(t),&space;t&space;\geq&space;0" title="X(t), t \geq 0" /> has stationary and independant increments\
 and for every <img src="https://latex.codecogs.com/gif.latex?t&space;>&space;0,&space;X(t)&space;\sim&space;\mathcal{N}(0,&space;\sigma^2t)" title="t > 0, X(t) \sim \mathcal{N}(0, \sigma^2t)" />
 
