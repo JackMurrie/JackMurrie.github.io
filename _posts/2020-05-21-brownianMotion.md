@@ -12,15 +12,15 @@ mathjax: "true"
 Brownian Motion is the seemingly random movement of particles suspended in a fluid (i.e. dust motes in water or air) and by extension the mathematical model used to describe this movement. It is one of the simplest and most fundamental continuous-time
 stochastic processes, finding applications in numerous situations.
 A stochastic process <img src="https://latex.codecogs.com/gif.latex?X(t),&space;t&space;\geq&space;0" title="X(t), t \geq 0" /> is Brownian if: \
-<img src="https://latex.codecogs.com/gif.latex?$X(0)&space;=&space;0$" title="$X(0) = 0$" /> (arbitrary choice)\
-<img src="https://latex.codecogs.com/gif.latex?$X(t),&space;t&space;\geq&space;0$" title="$X(t), t \geq 0$" /> has stationary and independant increments\
-and for every <img src="https://latex.codecogs.com/gif.latex?$t&space;>&space;0,&space;X(t)&space;\sim&space;\mathcal{N}(0,&space;\sigma^2t)$" title="$t > 0, X(t) \sim \mathcal{N}(0, \sigma^2t)$" />
+<img src="https://latex.codecogs.com/gif.latex?X(0)&space;=&space;0" title="X(0) = 0" /> (arbitrary choice)\
+<img src="https://latex.codecogs.com/gif.latex?X(t),&space;t&space;\geq&space;0" title="X(t), t \geq 0" /> has stationary and independant increments\
+and for every <img src="https://latex.codecogs.com/gif.latex?t&space;>&space;0,&space;X(t)&space;\sim&space;\mathcal{N}(0,&space;\sigma^2t)" title="t > 0, X(t) \sim \mathcal{N}(0, \sigma^2t)" />
 
-Thus it follows, for any $t, s > 0$:\
+Thus it follows, for any <img src="https://latex.codecogs.com/gif.latex?t,&space;s&space;>&space;0" title="t, s > 0" />:\
 
 $$X(s+t)|X(s)=x) \sim \mathcal{N}(x,\,\sigma^{2}t)$$
 
-When $\sigma = 1$ the process is known as Standard Brownian Motion 
+When <img src="https://latex.codecogs.com/gif.latex?\sigma&space;=&space;1" title="\sigma = 1" /> the process is known as Standard Brownian Motion 
 
 
 ```python
@@ -60,7 +60,7 @@ plt.show()
 ![](/images/BM_outputs/output_3_0.png)
 
 
-Brownian Motion with drift coefficient $\mu$ and variance parameter $\sigma^2$:
+Brownian Motion with drift coefficient <img src="https://latex.codecogs.com/gif.latex?\mu" title="\mu" /> and variance parameter <img src="https://latex.codecogs.com/gif.latex?\sigma^2" title="\sigma^2" />:
 
 $$X(t) \sim \mathcal{N}(\mu t, \sigma^2t)$$
 
@@ -237,12 +237,12 @@ plt.show()
 ![](/images/BM_outputs/output_14_0.png)
 
 
-Random fluctuations in stock price over a shprt period of time can be modelled using [Geometric Brownian motion](https://en.wikipedia.org/wiki/Geometric_Brownian_motion). A stochastic process $S(t)$ is said to follow a GBM if it satisfies the following stochastic differential equation:
+Random fluctuations in stock price over a shprt period of time can be modelled using [Geometric Brownian motion](https://en.wikipedia.org/wiki/Geometric_Brownian_motion). A stochastic process <img src="https://latex.codecogs.com/gif.latex?S(t)" title="S(t)" /> is said to follow a GBM if it satisfies the following stochastic differential equation:
 
 $$dS(t) = \mu S(t)dt + \sigma S(t)dB(t)$$
 
-Where $\mu S(t)dt$ is a predictable / anticipated component of the expected return and $\sigma S(t)dB(t)$ which is the stochastic / random component.
-The solution to this equation $S(t)$ follows the log-normal distribution (intuitive, stock prices cannot be negative and are normally distributed):
+Where <img src="https://latex.codecogs.com/gif.latex?\mu&space;S(t)dt" title="\mu S(t)dt" /> is a predictable / anticipated component of the expected return and <img src="https://latex.codecogs.com/gif.latex?\sigma&space;S(t)dB(t)" title="\sigma S(t)dB(t)" /> which is the stochastic / random component.
+The solution to this equation <img src="https://latex.codecogs.com/gif.latex?S(t)" title="S(t)" /> follows the log-normal distribution (intuitive, stock prices cannot be negative and are normally distributed):
 
 $$S(t) = S(0)exp[(\mu - \frac{\sigma^2}{2})t+\sigma B(t)]$$
 
