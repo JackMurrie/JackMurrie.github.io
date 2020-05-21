@@ -57,7 +57,7 @@ plt.show()
 ```
 
 
-![](/_posts/BM_outputs/output_3_0.png)
+![](/images/output_3_0.png)
 
 
 Brownian Motion with drift coefficient $\mu$ and variance parameter $\sigma^2$:
