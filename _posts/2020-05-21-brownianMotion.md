@@ -13,10 +13,10 @@ Brownian Motion is the seemingly random movement of particles suspended in a flu
 stochastic processes, finding applications in numerous situations.
 A stochastic process <img src="https://latex.codecogs.com/gif.latex?X(t),&space;t&space;\geq&space;0" title="X(t), t \geq 0" /> is Brownian if: <br/>
 <img src="https://latex.codecogs.com/gif.latex?X(0)&space;=&space;0" title="X(0) = 0" /> (arbitrary choice)<br/>
-<img src="https://latex.codecogs.com/gif.latex?X(t),&space;t&space;\geq&space;0" title="X(t), t \geq 0" /> has stationary and independant increments\
+<img src="https://latex.codecogs.com/gif.latex?X(t),&space;t&space;\geq&space;0" title="X(t), t \geq 0" /> has stationary and independant increments<br/>
 and for every <img src="https://latex.codecogs.com/gif.latex?t&space;>&space;0,&space;X(t)&space;\sim&space;\mathcal{N}(0,&space;\sigma^2t)" title="t > 0, X(t) \sim \mathcal{N}(0, \sigma^2t)" />
 
-Thus it follows, for any <img src="https://latex.codecogs.com/gif.latex?t,&space;s&space;>&space;0" title="t, s > 0" />:\
+Thus it follows, for any <img src="https://latex.codecogs.com/gif.latex?t,&space;s&space;>&space;0" title="t, s > 0" />:
 
 $$X(s+t)|X(s)=x) \sim \mathcal{N}(x,\,\sigma^{2}t)$$
 
@@ -247,7 +247,7 @@ The solution to this equation <img src="https://latex.codecogs.com/gif.latex?S(t
 $$S(t) = S(0)exp[(\mu - \frac{\sigma^2}{2})t+\sigma B(t)]$$
 
 
-The components of the exponent can be interpreted as drift and volatility/diffusion respectively.\
+The components of the exponent can be interpreted as drift and volatility/diffusion respectively.<br/>
 Thus we can attempt to simulate Googles stock price:
 
 
