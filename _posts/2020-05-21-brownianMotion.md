@@ -57,7 +57,7 @@ plt.show()
 ```
 
 
-![](/images/output_3_0.png)
+![](/images/BM_outputs/output_3_0.png)
 
 
 Brownian Motion with drift coefficient $\mu$ and variance parameter $\sigma^2$:
@@ -77,7 +77,7 @@ plt.show()
 ```
 
 
-![png](/_posts/BM_outputs/output_6_0.png)
+![](/images/BM_outputs/output_6_0.png)
 
 
 ### Simulating Stock Prices
@@ -191,7 +191,7 @@ plt.show()
 ```
 
 
-![png](/_posts/BM_outputs/output_10_0.png)
+![](/images/BM_outputs/output_10_0.png)
 
 
 We can see below that the daily returns are approximately normally distributed,
@@ -213,7 +213,7 @@ print("Std Deviation: ", np.std(daily_returns))
 ```
 
 
-![png](/_posts/BM_outputs/output_12_0.png)
+![](/images/BM_outputs/output_12_0.png)
 
 
     Mean:  0.0008800658343619005
@@ -234,7 +234,7 @@ plt.show()
 ```
 
 
-![png](/_posts/BM_outputs/output_14_0.png)
+![](/images/BM_outputs/output_14_0.png)
 
 
 Random fluctuations in stock price over a shprt period of time can be modelled using [Geometric Brownian motion](https://en.wikipedia.org/wiki/Geometric_Brownian_motion). A stochastic process $S(t)$ is said to follow a GBM if it satisfies the following stochastic differential equation:
@@ -299,7 +299,7 @@ plt.show()
     
 
 
-![png](/_posts/BM_outputs/output_17_1.png)
+![](/images/BM_outputs/output_17_1.png)
 
 
 Over a short period of time this method is far less accurate
@@ -327,7 +327,7 @@ plt.show()
     
 
 
-![png](/_posts/BM_outputs/output_19_1.png)
+![](/images/BM_outputs/output_19_1.png)
 
 
 R2 against number of days modelled, compared with actual Google stock data.
@@ -353,11 +353,11 @@ plt.show()
 ```
 
 
-![png](/_posts/BM_outputs/output_21_0.png)
+![](/images/BM_outputs/output_21_0.png)
 
 
 
-![png](/_posts/BM_outputs/output_21_1.png)
+![](/images/BM_outputs/output_21_1.png)
 
 
 We can run a training and test split on the data
@@ -523,7 +523,7 @@ plt.show()
 ```
 
 
-![png](/_posts/BM_outputs/output_28_0.png)
+![](/images/BM_outputs/output_28_0.png)
 
 
 
@@ -540,7 +540,7 @@ print("Std Deviation: ", np.std(axjo_daily_returns) * 100, "%")
 ```
 
 
-![png](/_posts/BM_outputs/output_29_0.png)
+![](/images/BM_outputs/output_29_0.png)
 
 
     Mean:  0.027254460238958996 %
@@ -563,7 +563,7 @@ plt.show()
     
 
 
-![png](/_posts/BM_outputs/output_30_1.png)
+![](/images/BM_outputs/output_30_1.png)
 
 
 As can be seen above the model is much worse at simulating AXJO data when compared with GOOGL data. This is due to the std deviation (volatility) of each data set:
