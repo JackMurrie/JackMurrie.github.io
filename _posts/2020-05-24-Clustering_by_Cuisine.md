@@ -792,7 +792,7 @@ plt.show()
 ```
 
 
-![](images/ClusteringCuisinesBarh.png)
+![](/images/ClusteringCuisinesBarh.png)
 
 At this stage k-means clustering can be employed in order to group the cities into 6 clusters based on the similarity of their cuisines. A ranking of the top 5 most popular cuisines for each city is also included.
 
@@ -1054,7 +1054,7 @@ for lat, lon, poi, cluster in zip(data['Lat'], data['Long'], top_cuisines["City"
        
 world_map.save("world_map.html")
 ```
-[Map of Clustered Cities](images/clustered_cities_map.html)
+[Map of Clustered Cities](/images/clustered_cities_map.html)
 
 ### Discussion
 
