@@ -793,6 +793,7 @@ plt.show()
 
 
 ![](/images/ClusteringCuisinesBarh.png)
+[Easier to read version](/images/ClusteringCuisinesBarh.png)
 
 At this stage k-means clustering can be employed in order to group the cities into 6 clusters based on the similarity of their cuisines. A ranking of the top 5 most popular cuisines for each city is also included.
 
@@ -1058,12 +1059,14 @@ world_map.save("world_map.html")
 
 ### Discussion
 
-We can see that Delhi and Hong Kong, Rome and Lisbon have their own clusters, reflecting their unique cuisine landscape. Thus these locations would be most suited to travelers desiring a unique culinary experience. Tokyo and Paris are strangely clustered together, however when I researched each city it is apparent that the restaurants around Tokyo city centre are heavily influenced by French cuisine. The remaining cities are clustered together meaning they are more similar to each other than any other city, thus meaning they have a less diverse range of cuisines than the other cities.
+We can see that Delhi, Hong Kong, Rome and Lisbon have their own clusters, reflecting their unique cuisine landscape. Thus these locations would be most suited to travelers desiring a unique culinary experience. Tokyo and Paris are strangely clustered together, however when I researched each city it is apparent that the restaurants around Tokyo city centre are heavily influenced by French cuisine. The remaining cities are clustered together meaning they are more similar to each other than any other city, thus meaning they have a less diverse range of cuisines than the other cities.
 
 ### Conclusion
 
 This project was able to successfully highlight some commonalities between the major restaurant cuisines in cities around the world. It should be noted that better results may be obtained by extending the radius of the Foursquare search, increasing the number of cities and also increasing the number of restaurants used in the data. However to keep computational times low and to avoid exceeding the maximum number of requests to the Foursquare API these numbers were kept low.
 
+<br>
 
+This project was my capstone project in the [IBM Professional Data Science Certificate](https://www.youracclaim.com/badges/d0c5a0a4-939a-4479-9692-74940cd90e46)
 
 
