@@ -7,4 +7,4 @@ header:
 
 Aspiring Data Scientist currently in the penultimate year of a Computer Science and Statistics degree. I am confident and passionate about utilising programming, analytical thinking and statistical methods to extract insights into data.
 
-[Resume](https://github.com/JackMurrie/JackMurrie.github.io/raw/master/resume-June2020.pdf)
+[Resume](https://github.com/JackMurrie/JackMurrie.github.io/raw/master/Resume_sep2020.pdf)
