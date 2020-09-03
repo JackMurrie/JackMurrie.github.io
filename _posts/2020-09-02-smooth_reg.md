@@ -25,13 +25,13 @@ In order to model non-linear relationships we must fit smooth functions. In the 
 
 $$RSS(f, \lambda)=\sum_{i=1}^{n}(y_i-f(x_i))^2+\lambda \int(f^"(t))^2dt$$
 
-Here <img src="https://latex.codecogs.com/gif.latex?\lambda" title="\lambda" /> is a smoothing parameter, that establishes a tradeoff between the first term - the closeness or goodness of fit of the data (variance) and the second term - the level of curvature of $f$ (bias).
+Here <img src="https://latex.codecogs.com/gif.latex?\lambda" title="\lambda" /> is a smoothing parameter, that establishes a tradeoff between the first term - the closeness or goodness of fit of the data (variance) and the second term - the level of curvature of <img src="https://latex.codecogs.com/gif.latex?f" title="f" /> (bias).
 
 This can be rewritten as:
 
 $$RSS(\bf{\theta},\lambda)=||\bf{y}-N\theta||^2+\lambda\theta^T\int N_j^"(t) N_k^"(t) dt$$
 
-Where $N$ is a matrix of K dimensional basis function sets for representing the appropriate family of natural splines.
+Where <img src="https://latex.codecogs.com/gif.latex?N" title="N" /> is a matrix of K dimensional basis function sets for representing the appropriate family of natural splines.
 
 The solution is:
 $$\hat{\theta} = (N^TN+\lambda\int N_j^"(t) N_k^"(t) dt)^{-1}N^Ty$$
@@ -65,7 +65,7 @@ lines(smooth.spline(wind, ozone), col = "green")
 R uses Kernal Density Estimation to estimate densities for non-paramteric data:
 $$\hat{f}(x)=\frac{1}{nh}\sum_{i=1}^{n}K(\frac{x-x_i}{h})$$
 
-Where $h$ is a tuning paramter, the bandwidth and $K(u)$ is a kernal function.
+Where <img src="https://latex.codecogs.com/gif.latex?h" title="h" /> is a tuning paramter, the bandwidth and <img src="https://latex.codecogs.com/gif.latex?K(u)" title="K(u)" /> is a kernal function.
 
 We can compare our density estimate with the actual data.
 ```R
@@ -78,15 +78,15 @@ lines(density(radiation), col="red")
 
 General additive models are a form of local regression in which mutivariate data can be fiited with non-linear relationships to the response.
 
-Suppose that $y_i$ has a distribution from the exponential family:
+Suppose that <img src="https://latex.codecogs.com/gif.latex?y_i" title="y_i" /> has a distribution from the exponential family:
 
 $$f(y_i;\theta_i,\phi)=exp(A_i(y_i\theta_i-c(\theta_i))/\phi+h(y_i,\phi/A_i)) $$
 
 In a GAM we assume that the link function 
 $$g(\mu_i)=\sum_{j=1}^{p}f_j(x_{ij})$$
-where the $f$'s are a collection of smooth univariate functions where the responses are indepentant and $x_{ij}$'s are the p predictor variables for observation i.
+where the <img src="https://latex.codecogs.com/gif.latex?f" title="f" />'s are a collection of smooth univariate functions where the responses are indepentant and <img src="https://latex.codecogs.com/gif.latex?x_{ij}" title="x_{ij}" />'s are the p predictor variables for observation i.
 
-We minimise, $l$ is log-likelihood:
+We minimise, <img src="https://latex.codecogs.com/gif.latex?l" title="l" /> is log-likelihood:
 
 $$-2\phi l(f)+\sum_{j=1}^{p}\lambda_j \int(f_j^"(x_j))^2dx_j$$
 
