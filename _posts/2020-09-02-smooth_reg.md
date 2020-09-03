@@ -25,7 +25,7 @@ In order to model non-linear relationships we must fit smooth functions. In the 
 
 $$RSS(f, \lambda)=\sum_{i=1}^{n}(y_i-f(x_i))^2+\lambda \int(f^"(t))^2dt$$
 
-Here <a href="https://www.codecogs.com/eqnedit.php?latex=$\lambda$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\lambda$" title="$\lambda$" /></a> is a smoothing parameter, that establishes a tradeoff between the first term - the closeness or goodness of fit of the data (variance) and the second term - the level of curvature of $f$ (bias).
+Here <img src="https://latex.codecogs.com/gif.latex?$\lambda$" title="$\lambda$" /> is a smoothing parameter, that establishes a tradeoff between the first term - the closeness or goodness of fit of the data (variance) and the second term - the level of curvature of $f$ (bias).
 
 This can be rewritten as:
 
