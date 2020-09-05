@@ -1,6 +1,6 @@
 ---
 title: "Smooth Regression and General Additive Models"
-date: 2020-09-1
+date: 2020-05-23
 tags: [R , Statistical Methods]
 excerpt: "Smoothing spline regression and model fitting on Ozone Concentration data in R"
 mathjax: "true"
