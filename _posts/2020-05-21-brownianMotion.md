@@ -2,8 +2,6 @@
 title: "Simulating Brownian Motion"
 date: 2020-05-21
 tags: [statistics, modelling]
-header:
-  image: "/images/ryan-pernofski-o-gdyf0Ggds-unsplash.jpg"
 excerpt: "Simulating Brownian Motion and using it to model stock prices"
 mathjax: "true"
 ---
