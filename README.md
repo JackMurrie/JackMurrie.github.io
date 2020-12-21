@@ -1,9 +1,9 @@
-# Made With [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/)
+A blog for some of my personal and universiyt projects!
 
 ## Credits
 
 **Michael Rose**
-
+### Made With [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/)
 - <https://mademistakes.com>
 - <https://twitter.com/mmistakes>
 - <https://github.com/mmistakes>
