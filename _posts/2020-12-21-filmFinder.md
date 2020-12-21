@@ -1,6 +1,6 @@
 ---
 title: "UNSW CSE Capstone Project"
-date: 2020-05-21
+date: 2020-12-21
 tags: [frontend development]
 excerpt: "A web application to browse, track and get recommendations for movies"
 mathjax: "true"
