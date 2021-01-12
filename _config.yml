@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Jack Murrie"
-  avatar           : "/images/head_pic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           :  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "3rd Year Computer Science / Statistics Student @ UNSW"
   location         : "Sydney, Australia"
   email            : "jackcmurrie4@gmail.com"
