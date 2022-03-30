@@ -1,12 +1,12 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name                    = "minimal-mistakes-jekyll"
-  spec.version                 = "4.9.0"
-  spec.authors                 = ["Michael Rose"]
+  spec.name                    = "jekyll-blog"
+  spec.version                 = "1.0.0"
+  spec.authors                 = ["Jack Murrie"]
 
   spec.summary                 = %q{A flexible two-column Jekyll theme.}
-  spec.homepage                = "https://github.com/mmistakes/minimal-mistakes"
+  spec.homepage                = "https://jackmurrie.github.io//"
   spec.license                 = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
@@ -23,6 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-data", "~> 1.0"
   spec.add_runtime_dependency "jemoji", "~> 0.8"
 
-  spec.add_development_dependency "bundler", "~> 2.2.33"
+  spec.add_development_dependency "bundler", "~> 2.3.10"
   spec.add_development_dependency "rake", "~> 12.3.3"
 end

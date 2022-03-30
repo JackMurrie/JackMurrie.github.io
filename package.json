@@ -1,18 +1,14 @@
 {
-  "name": "minimal-mistakes",
-  "version": "4.9.0",
-  "description": "Minimal Mistakes Jekyll theme npm build scripts",
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Personal Blog built from Minimal Mistakes Jekyll theme npm build scripts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
+    "url": "git://github.com/JackMurrie/JackMurrie.github.io"
   },
   "keywords": ["jekyll", "theme", "minimal"],
-  "author": "Michael Rose",
+  "author": "Jack Murrie",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
-  },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
   "engines": {
     "node": ">= 0.10.0"
   },
