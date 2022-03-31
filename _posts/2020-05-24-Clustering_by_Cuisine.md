@@ -793,7 +793,6 @@ plt.show()
 
 
 ![](/images/ClusteringCuisinesBarh.png)
-[Easier to read version](https://github.com/JackMurrie/JackMurrie.github.io/blob/master/images/ClusteringCuisinesBarh.png)
 
 At this stage k-means clustering can be employed in order to group the cities into 6 clusters based on the similarity of their cuisines. A ranking of the top 5 most popular cuisines for each city is also included.
 
