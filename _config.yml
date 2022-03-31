@@ -9,10 +9,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jack Murrie | Machine Learning & Data Science"
+title                    : "Jack Murrie | Blog"
 title_separator          : "-"
 name                     : "Jack Murrie"
-description              : "3rd Year Computer Science / Statistics Student @ UNSW"
+description              : "5th Year Computer Science / Statistics Student @ UNSW"
 url                      : "https://jackmurrie.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "JackMurrie/JackMurrie.github.io"
@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Jack Murrie"
   avatar           :  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "3rd Year Computer Science / Statistics Student @ UNSW"
+  bio              : "5th Year Computer Science / Statistics Student @ UNSW"
   location         : "Sydney, Australia"
   email            : "jackcmurrie4@gmail.com"
   uri              :
