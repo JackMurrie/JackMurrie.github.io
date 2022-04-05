@@ -28,3 +28,8 @@ docker-compose up -d
 
 This command builds both the backend and frontend development images and runs the containers. 
 The backend is served from `http://localhost:8080/`, while the frontend can be accessed at `http://localhost:3000/`
+
+Stop the app with:
+```
+docker-compose down
+```
