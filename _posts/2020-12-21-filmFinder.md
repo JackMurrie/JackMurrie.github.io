@@ -12,4 +12,16 @@ users connect and vote for their favourite movie.
 
 We had a great team and the project was enjoyable to work on. My role was a frontend developer, using the javascript library React and material-UI components. 
 
-[FilmFinder](https://filmfinder.thefilmhawk.com:3000/)
+[FilmFinder Source Code](https://github.com/JackMurrie/filmfinder)
+
+To start the app locally:
+
+```
+git clone git@github.com:JackMurrie/filmfinder.git
+```
+```
+cd filmfinder
+```
+```
+docker-compose up -d
+```
