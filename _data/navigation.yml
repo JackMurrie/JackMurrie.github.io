@@ -4,6 +4,8 @@ main:
     url: /about/
   - title: "Projects"
     url: /projects/
+  - title: "Resume"
+    url: "/web/viewer.html?file=https://jackmurrie.github.io/resume.pdf"
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
