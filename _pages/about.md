@@ -3,7 +3,6 @@ title: "About"
 permalink: /about/
 ---
 
-Aspiring Software Professional currently finishing a Computer Science and Statistics degree. I am confident and passionate about utilising programming, analytical thinking and statistical methods to extract insights into data
-and create applications that are a joy to use.
+Software Professional with experience in full stack development and data science methodologies. Passionate about learning and sharing my experience with others.
 
 [Resume](https://jackmurrie.github.io/web/viewer.html?file=https://jackmurrie.github.io/resume.pdf){: .btn}
