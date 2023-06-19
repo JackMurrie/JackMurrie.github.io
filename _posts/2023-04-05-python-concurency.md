@@ -217,7 +217,7 @@ if __name__ == "__main__":
     main()
 ```
 ```
-Total elapsed time: 0.7241818904876709 seconds # woo
+Total elapsed time: 0.7241818904876709 seconds
 ```
 
 There a a great range of multiprocessing libraries available in Python, one great option is [Ray](https://www.ray.io/).
@@ -242,12 +242,12 @@ So, how do we choose the right Concurrency Approach for your use case? In genera
 
 CPU tasks can also benefit from a variety of alternative mechanisms such as:
 - GPU (Graphics Processing Unit) Computing such as [CUDA Python](https://developer.nvidia.com/cuda-python)
-- Distributed Computing. In python we can use [Celery](). Outside of python we can use a distributed platform such as (Kubernetes)[https://kubernetes.io/docs/tasks/job/fine-parallel-processing-work-queue/]
+- Distributed Computing. In python we can use [Celery](). Outside of python we can use a distributed platform such as [Kubernetes](https://kubernetes.io/docs/tasks/job/fine-parallel-processing-work-queue/)
 
 ## Conclusion
 
-Remember, with great power comes great responsibility. Concurrency introduces new challenges and complexities, such as synchronization and resource management.
+Concurrency introduces new challenges and complexities, such as synchronization and resource management.
 It's important to follow best practices, handle potential issues, and thoroughly test your code to ensure correctness and reliability.
-With a solid understanding of concurrency and the right tools at your disposal, you can unlock the full potential of Python in concurrent programming.
+With a solid understanding of concurrency and the right tools at your disposal, you can unlock the full potential of Python and your resources.
 
-**_NOTE:_**  ChatGPT has been used to generate code snippets in this blog
+**_NOTE:_**  ChatGPT has been used to help generate some of the code snippets in this blog
