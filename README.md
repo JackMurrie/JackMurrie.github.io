@@ -1,4 +1,4 @@
-# A blog for some of my personal and uni projects
+# My Blog
 
 ## Credits
 
